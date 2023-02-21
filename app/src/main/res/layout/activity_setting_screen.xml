@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingScreen"
+    android:orientation="vertical"
+    android:accessibilityPaneTitle="More">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:text="SETTINGS"
+        android:textSize="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="General"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="Accessibility"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="Vesion"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="Send Feedback"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="Tell Others About Zoom"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Rate Zoom in the Googel Play Store"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Privacy Policy"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Term Of Service"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Community Standards"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>

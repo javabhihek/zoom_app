@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_screen"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Join a Meeting"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#EEEFF3"
+        android:gravity="center"
+        android:text="Join with a personal link name"
+        android:textAlignment="center"
+        android:textColor="@color/wave"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#EEEFF3"
+        android:gravity="center"
+        android:text="Samsung SM-M115F"
+        android:textAlignment="center"
+        android:textColor="#0A0A0B"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="9dp"
+        android:text="By clicking Join,you agree to your Terms of Service and
+Privacy Statement" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="365dp"
+        android:id="@+id/btn_joinpage"
+        android:layout_height="48dp"
+        android:background="@drawable/signup_btn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Join"
+        android:textColor="#959292"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="9dp"
+        android:text="If you received an invitation link,tap on the link to join the
+meeting" />
+
+
+       <TextView
+           android:layout_width="376dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="9dp"
+           android:layout_marginTop="9dp"
+           android:text="JOIN OPTIONS"
+           android:textSize="17dp"
+           android:textColor="@color/black"/>
+    <ToggleButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            android:text="Don't Connect To Audio"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            android:text="Turn Off MY Video"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</LinearLayout>
