@@ -1,85 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login_screen"
-    android:orientation="vertical">
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Login_screen">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:orientation="horizontal"
-        >
+        android:layout_height="360dp"
+        android:orientation="vertical">
 
 
         <TextView
-            android:layout_width="334dp"
+            android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_margin="3dp"
+            android:layout_marginTop="10dp"
             android:text="Sign In"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
             android:textAlignment="center"
             android:textSize="25dp" />
-    </LinearLayout>
 
 
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:background="#F2F2F3"
-        android:hint="ENTER YOUR EMAIL ADDRESS"
+        android:layout_height="40dp"
         android:layout_marginTop="3dp"
-        android:gravity="center"
+        android:background="#CCF2F2F3"
+        android:hint="ENTER YOUR EMAIL ADDRESS"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
         android:textSize="18dp" />
+
     <EditText
         android:id="@+id/edt_emaillogin"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
         android:hint="Email"
         android:textAlignment="center"
-        android:layout_marginTop="3dp"
-        android:textSize="18dp"/>
+        android:textSize="18dp" />
+
     <EditText
         android:id="@+id/edt_passwordlogin"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
         android:hint="Password"
         android:textAlignment="center"
-        android:layout_marginTop="3dp"
-        android:textSize="18dp"/>
+        android:textSize="18dp" />
+
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="365dp"
         android:id="@+id/btn_signinlogin"
-        android:layout_height="48dp"
-        android:background="@drawable/signup_btn"
-        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/signup_btn"
         android:text="Sign In"
-        android:textSize="18sp"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/txt_forgotlogin"
+        android:id="@+id/txt_forgot_login"
+        android:layout_width="359dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
         android:text="Forgot Password?"
         android:textColor="#2662DA"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="25dp"/>
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_background"
+        android:orientation="vertical">
+
     <TextView
         android:id="@+id/other_login"
-        android:layout_width="match_parent"
+        android:layout_width="358dp"
         android:layout_height="40dp"
-        android:text="OTHERS SIGN IN METHODS"
-        android:textSize="15dp"
-        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="25dp"/>
+        android:text="OTHERS SIGN IN METHODS"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signin_google"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/signin_with_google"
+        android:text="Sign  in with Google"
+        android:drawableLeft="@drawable/g_logo"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signin_facebook"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/signin_with_google"
+            android:text="Sign  in with facebook"
+            android:drawableLeft="@drawable/f_logo"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:text="WAVE"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo_da"/>
+
+    </LinearLayout>
 
 </LinearLayout>

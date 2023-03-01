@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".meeting_screen"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".meeting_screen">
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,8 +22,8 @@
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/new_meeting" />
 
@@ -38,16 +38,16 @@
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/schedule" />
 
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/share_screen" />
@@ -70,8 +70,8 @@
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/meeting" />
 
@@ -86,16 +86,16 @@
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/contact1" />
 
         <ImageButton
             android:layout_width="88dp"
             android:layout_height="75dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/more1" />
