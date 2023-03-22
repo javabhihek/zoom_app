@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btn_joinmain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,JoinMeeting_scrren.class);
+                Intent i=new Intent(MainActivity.this,Joinmeeting_screen.class);
                 startActivity(i);
             }
         });

@@ -10,127 +10,126 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/logbanner"
+        android:src="@drawable/gfd_copy"
         android:scaleType="fitXY"
         />
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="20dp">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="133dp"
-            android:layout_height="match_parent"
-            android:text="Sign-up"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Name"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="16dp"
-            />
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Your Name"
-            android:inputType="textPersonName"
-            android:layout_marginTop="5dp"/>
+            android:orientation="vertical"
+            android:paddingTop="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            android:textStyle="bold"
-            android:textSize="16dp"
-            android:textColor="@color/black"
-            android:layout_marginTop="20dp"
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:text="Sign-up"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Your email id"
-            android:inputType="textEmailAddress"
-            android:layout_marginTop="5dp"
-
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact Us"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="16dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Your Mobile No"
-            android:inputType="textPersonName"
-            android:layout_marginTop="5dp"
-
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="16dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Your password"
-            android:inputType="textPassword"
-            android:layout_marginTop="5dp"
-            />
-            />
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign-up"
-            android:layout_marginTop="20dp"
-            android:textSize="30dp"
-            android:background="@color/wave"
-            android:textColor="@color/white"
-            android:textAllCaps="false"
-            />
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="290dp"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Name"
+                android:inputType="textPersonName"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
                 android:layout_marginTop="20dp"
-                android:orientation="horizontal"
-                android:paddingTop="20dp">
 
-                <TextView
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your email id"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Mobile No"
+                android:inputType="textPersonName"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your password"
+                android:inputType="textPassword"
+                android:layout_marginTop="5dp"
+                />
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign-up"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:background="@color/wave"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                />
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Don't have an account?"
-                    android:textSize="18dp" />
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sign-up"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </ScrollView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Already have an account?"
+                        android:textSize="18dp" />
 
-
-
-    </LinearLayout>
+                    <Button
+                        android:id="@+id/gotologin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:background=""
+                        android:textColor="#1369E8"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

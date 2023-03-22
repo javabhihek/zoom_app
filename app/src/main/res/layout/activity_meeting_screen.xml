@@ -1,105 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".meeting_screen">
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Meetings"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/ed_room"
+        android:layout_width="334dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:hint="Enter room code here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_join"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:text="JOIN"
+        android:textColor="@color/white"
+        android:background="@drawable/join_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="87dp">
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/new_meeting" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/join" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/schedule" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/share_screen" />
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Add a calendar"
-        android:textColor="@color/wave"
-        android:textSize="20sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="87dp"
-        android:layout_marginTop="460dp">
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/meeting" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/name1" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/contact1" />
-
-        <ImageButton
-            android:layout_width="88dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/more1" />
-    </LinearLayout>
-
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

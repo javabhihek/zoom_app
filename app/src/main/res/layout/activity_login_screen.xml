@@ -68,7 +68,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/txt_forgot_login"
+        android:id="@+id/txt_forgotlogin"
         android:layout_width="359dp"
         android:layout_height="32dp"
         android:layout_marginLeft="25dp"
